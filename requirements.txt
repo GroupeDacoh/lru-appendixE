@@ -1,0 +1,5 @@
+# Simulation LRU flux-activated (QuTiP)
+numpy>=1.20
+matplotlib>=3.5
+qutip>=4.7
+scipy>=1.7

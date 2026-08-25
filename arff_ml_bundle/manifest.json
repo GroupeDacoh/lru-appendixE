@@ -1,0 +1,98 @@
+[
+  {
+    "file": "qutip_01_full_mixed.arff",
+    "description": "M\u00e9lange grille+al\u00e9atoire autour de O (baseline)",
+    "n": 400,
+    "leakage_min": 0.0001999351246107914,
+    "leakage_median": 0.03593036454635006,
+    "leakage_max": 0.9772713912392902,
+    "n_le_7e-4": 12,
+    "point_O_leakage": 0.000599796535035781,
+    "chip_fixed_Table_I": true,
+    "target": "leakage_final"
+  },
+  {
+    "file": "qutip_02_near_O.arff",
+    "description": "\u00c9chantillonnage dense pr\u00e8s du point O",
+    "n": 300,
+    "leakage_min": 0.00021369527839054734,
+    "leakage_median": 0.009610615832595863,
+    "leakage_max": 0.06169811973269922,
+    "n_le_7e-4": 8,
+    "point_O_leakage": 0.000599796535035781,
+    "chip_fixed_Table_I": true,
+    "target": "leakage_final"
+  },
+  {
+    "file": "qutip_03_resonance.arff",
+    "description": "Sur la droite de r\u00e9sonance (2\u0394\u03c9_m\u2248\u0394\u03c9_a)",
+    "n": 300,
+    "leakage_min": 0.0005614282902258273,
+    "leakage_median": 0.043062315610680024,
+    "leakage_max": 0.2670074448343994,
+    "n_le_7e-4": 2,
+    "point_O_leakage": 0.000599796535035781,
+    "chip_fixed_Table_I": true,
+    "target": "leakage_final"
+  },
+  {
+    "file": "qutip_04_explore.arff",
+    "description": "Contrastes hors r\u00e9sonance / hors O",
+    "n": 300,
+    "leakage_min": 0.000599796535035781,
+    "leakage_median": 0.8462502142667044,
+    "leakage_max": 0.9899748321557527,
+    "n_le_7e-4": 1,
+    "point_O_leakage": 0.000599796535035781,
+    "chip_fixed_Table_I": true,
+    "target": "leakage_final"
+  },
+  {
+    "file": "qutip_05_T_active_sweep.arff",
+    "description": "Balayage syst\u00e9matique de T_active",
+    "n": 118,
+    "leakage_min": 0.00021441230647329656,
+    "leakage_median": 0.029060791052195504,
+    "leakage_max": 0.21440054662798713,
+    "n_le_7e-4": 9,
+    "point_O_leakage": 0.000599796535035781,
+    "chip_fixed_Table_I": true,
+    "target": "leakage_final"
+  },
+  {
+    "file": "qutip_06_omega_m_sweep.arff",
+    "description": "Balayage syst\u00e9matique de \u03c9_m",
+    "n": 190,
+    "leakage_min": 0.000599796535035781,
+    "leakage_median": 0.6539152838289601,
+    "leakage_max": 0.932693493992165,
+    "n_le_7e-4": 1,
+    "point_O_leakage": 0.000599796535035781,
+    "chip_fixed_Table_I": true,
+    "target": "leakage_final"
+  },
+  {
+    "file": "qutip_07_omega_a_sweep.arff",
+    "description": "Balayage syst\u00e9matique de \u03c9_a",
+    "n": 190,
+    "leakage_min": 0.00021707426810518965,
+    "leakage_median": 0.14173368645752618,
+    "leakage_max": 0.2431934906131169,
+    "n_le_7e-4": 5,
+    "point_O_leakage": 0.000599796535035781,
+    "chip_fixed_Table_I": true,
+    "target": "leakage_final"
+  },
+  {
+    "file": "qutip_08_sigma_sweep.arff",
+    "description": "Balayage syst\u00e9matique de \u03c3",
+    "n": 100,
+    "leakage_min": 0.00020192680371854512,
+    "leakage_median": 0.015718874834266226,
+    "leakage_max": 0.09011860766437481,
+    "n_le_7e-4": 20,
+    "point_O_leakage": 0.000599796535035781,
+    "chip_fixed_Table_I": true,
+    "target": "leakage_final"
+  }
+]
